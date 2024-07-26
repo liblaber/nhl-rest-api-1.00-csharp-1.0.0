@@ -1,0 +1,127 @@
+{
+  "liblabVersion": "2.1.23",
+  "date": "2024-07-26T12:06:56.174Z",
+  "config": {
+    "apiId": 417,
+    "baseUrl": "https://api-web.nhle.com/",
+    "sdkName": "nhl_client",
+    "sdkVersion": "1.0.0",
+    "liblabVersion": "2",
+    "deliveryMethods": ["zip"],
+    "languages": ["csharp"],
+    "apiVersion": "1.0.0",
+    "apiName": "nhl",
+    "specFilePath": "./NHL_API.yaml",
+    "auth": [],
+    "languageOptions": {
+      "csharp": {
+        "packageId": "",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "liblabVersion": "2",
+        "sdkVersion": "1.0.0"
+      },
+      "typescript": {
+        "bundle": false,
+        "exportClassDefault": false,
+        "httpClient": "axios",
+        "npmName": "",
+        "npmOrg": "",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "liblabVersion": "2",
+        "sdkVersion": "1.0.0"
+      }
+    },
+    "publishing": {
+      "githubOrg": ""
+    },
+    "devContainer": false,
+    "generateEnv": true,
+    "includeOptionalSnippetParameters": true,
+    "inferServiceNames": false,
+    "license": {
+      "type": "MIT",
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT",
+      "path": "MIT.ejs"
+    },
+    "responseHeaders": false,
+    "retry": {
+      "enabled": true,
+      "maxAttempts": 3,
+      "retryDelay": 150,
+      "maxDelay": 5000,
+      "retryDelayJitter": 50,
+      "backOffFactor": 2,
+      "httpCodesToRetry": [408, 429, 500, 502, 503, 504],
+      "httpMethodsToRetry": ["GET", "POST", "PUT", "DELETE", "PATCH", "HEAD", "OPTIONS"]
+    },
+    "multiTenant": true,
+    "specUrl": "https://dev-liblab-api-stack-specs.s3.us-east-1.amazonaws.com/417/open-api-spec.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIA3C2RXH7MWUCMN7ON%2F20240726%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240726T120652Z&X-Amz-Expires=43200&X-Amz-Signature=cbe5a9daee072b403cecd0ec5f9eac4c10275f0e2e0e2801c67e481de33dfde5&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "includeWatermark": true,
+    "packageId": "",
+    "githubRepoName": "",
+    "ignoreFiles": [],
+    "language": "csharp",
+    "deliveryMethod": "zip",
+    "hooks": {
+      "enabled": false,
+      "sourceDir": ""
+    },
+    "usesFormData": false,
+    "authentication": {},
+    "environmentVariables": [],
+    "fileOutput": "/tmp",
+    "httpLibrary": {
+      "name": "axios",
+      "packages": {
+        "axios": "^1.6.8"
+      },
+      "languages": ["typescript"]
+    },
+    "customQueries": {
+      "paths": [],
+      "rawQueries": [],
+      "queriesData": []
+    }
+  },
+  "files": [
+    "NhlClient/NhlClient.csproj",
+    "install.sh",
+    "NhlClient/Services/BaseService.cs",
+    "NhlClient/Services/PlayerSpotlightService.cs",
+    "NhlClient/Services/ScoreboardService.cs",
+    "Example/Example.csproj",
+    "Example/Program.cs",
+    "Example/.gitignore",
+    "NhlClient/Http/Serialization/SerializationStyle.cs",
+    "NhlClient/Http/Serialization/QuerySerializationStyle.cs",
+    "NhlClient/Http/Serialization/PathSerializationStyle.cs",
+    "NhlClient/Http/Serialization/Serializer.cs",
+    "NhlClient/Http/RequestBuilder.cs",
+    "NhlClient/Config/NhlClientConfig.cs",
+    "NhlClient/Http/Environment.cs",
+    "NhlClient/NhlClientClient.cs",
+    "NhlClient/Http/Handlers/RetryHandler.cs",
+    "NhlClient/.gitignore",
+    "./LICENSE",
+    "NhlClient/Services/SkaterStatsService.cs",
+    "NhlClient/Services/GoalieStatsService.cs",
+    "NhlClient/Services/RosterService.cs",
+    "NhlClient/Services/PlayerService.cs",
+    "NhlClient/Services/StandingsService.cs",
+    "NhlClient/Services/ClubStatsService.cs",
+    "NhlClient/Services/ScheduleService.cs",
+    "documentation/services/PlayerSpotlightService.md",
+    "documentation/services/ScoreboardService.md",
+    "documentation/services/SkaterStatsService.md",
+    "documentation/services/GoalieStatsService.md",
+    "documentation/services/RosterService.md",
+    "documentation/services/PlayerService.md",
+    "documentation/services/StandingsService.md",
+    "documentation/services/ClubStatsService.md",
+    "documentation/services/ScheduleService.md",
+    "README.md"
+  ]
+}

@@ -21,6 +21,9 @@ jobs:
         with:
           dotnet-version: 8.x
 
+      - name: Copy README.md
+        run: cp ../README.md README.md
+
       - name: Restore dependencies
         run: dotnet restore
 

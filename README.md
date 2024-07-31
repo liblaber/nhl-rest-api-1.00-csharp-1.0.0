@@ -57,27 +57,6 @@ Console.WriteLine(response);
 
 ```
 
-## Services
-
-The SDK provides various services to interact with the API.
-
-<details> 
-<summary>Below is a list of all available services with links to their detailed documentation:</summary>
-
-| Name                                                                       |
-| :------------------------------------------------------------------------- |
-| [PlayerService](documentation/services/PlayerService.md)                   |
-| [SkaterStatsService](documentation/services/SkaterStatsService.md)         |
-| [GoalieStatsService](documentation/services/GoalieStatsService.md)         |
-| [PlayerSpotlightService](documentation/services/PlayerSpotlightService.md) |
-| [StandingsService](documentation/services/StandingsService.md)             |
-| [ClubStatsService](documentation/services/ClubStatsService.md)             |
-| [ScoreboardService](documentation/services/ScoreboardService.md)           |
-| [RosterService](documentation/services/RosterService.md)                   |
-| [ScheduleService](documentation/services/ScheduleService.md)               |
-
-</details>
-
 ## License
 
 This SDK is licensed under the MIT License.
